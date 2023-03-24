@@ -75,14 +75,35 @@
               </p>
             </a>
           </li> 
-          <li class="nav-item dropdown">
-            <a href="./index.php?page=barchart" class="nav-link nav-barchart">
-              <i class="nav-icon fas fa-th-list"></i>
+            
+         
+          <li class="nav-item">
+            <a href="#" class="nav-link nav-Analysis">
+              <i class="nav-icon fas fa-users"></i>
               <p>
                 Analysis
+                <i class="right fas fa-angle-left"></i>
               </p>
             </a>
-          </li>   
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="./index.php?page=barchart" class="nav-link nav-barchart tree-item">
+                  <i class="fas fa-angle-right nav-icon"></i>
+                  <p>Report</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="./index.php?page=Fastrack" class="nav-link nav-Fastrack tree-item">
+                  <i class="fas fa-angle-right nav-icon"></i>
+                  <p>Fastrack</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          
+
+
+
         </ul>
       </nav>
     </div>

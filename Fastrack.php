@@ -3,7 +3,7 @@ $link=mysqli_connect("localhost","root","");
 mysqli_select_db($link,"osrs_db");
 $test=array();
 $count=0;
-$res=mysqli_query($link,"select * from results,students where results.student_id=students.id");
+$res=mysqli_query($link,"select * from results,students where results.student_id=students.id and marks_percentage<=40");
 while($row=mysqli_fetch_array($res))
 {
   $test[$count]["label"]=$row["student_code"];
