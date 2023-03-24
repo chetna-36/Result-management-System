@@ -1,5 +1,3 @@
-Free Download Source Code "Online Student Result System "
-
 FIRST Download
 
 1.XAMPP
@@ -28,6 +26,3 @@ user: admin
 pass: admin123
 
 create your own user
-
-****** https:1sourcecodr.blogspot.com ******
-Subcribe my You tube Channel **** 1 Source code ****
